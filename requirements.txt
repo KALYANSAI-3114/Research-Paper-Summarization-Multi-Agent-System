@@ -1,0 +1,38 @@
+# Core libraries
+python-dotenv
+SQLAlchemy
+# psycopg2-binary # Uncomment if using PostgreSQL
+pydantic # For data validation and settings management
+
+# PDF Processing
+pymupdf # pip install pymupdf (PyPI package: fitz)
+# pdfminer.six # Alternative if pymupdf has issues, pip install pdfminer.six
+
+# Web Scraping (if not relying solely on APIs)
+requests
+beautifulsoup4
+
+# LLM Integration
+openai # For OpenAI API (GPT, Whisper TTS)
+# google-generativeai # For Google Gemini API
+# anthropic # For Anthropic Claude API
+
+# Celery and Redis
+celery
+redis
+
+# Text-to-Speech (if not using LLM provider's TTS)
+# gTTS # Simpler, free Google TTS wrapper, but often rate-limited for commercial use
+
+# Academic API clients (choose one or more based on your priority)
+# semanticscholar==0.4.0 # For Semantic Scholar API, specific version recommended
+# arxiv # A Python wrapper for arXiv API
+
+# Optional: For a basic web UI
+# Flask
+# Flask-SQLAlchemy # If using Flask with SQLAlchemy
+# Gunicorn # Production WSGI server
+# streamlit # Another easy way to build a quick UI
+
+# Type hinting
+# mypy # For static type checking
